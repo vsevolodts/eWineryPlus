@@ -4,8 +4,8 @@
 // @namespace eW
 // @author Vsevolod Tsurikov
 // @version 1.0
-// @include https://admin-treasury.ewinerysolutions.com/wineries/store/*
-// @match https://admin-treasury.ewinerysolutions.com/wineries/store/*
+// @include https://admin-WINERY.ewinerysolutions.com/wineries/store/*
+// @match https://admin-WINERY.ewinerysolutions.com/wineries/store/*
 // @grant none
 
 // ==/UserScript==
@@ -21,7 +21,7 @@
         return;
     }
     // additional check @include
-    if (/https:\/\/admin-treasury.ewinerysolutions.com/.test(w.location.href)) {
+    if (/https:\/\/admin-WINERY.ewinerysolutions.com/.test(w.location.href)) {
     //Script
         
     $(document).ready(function(){
