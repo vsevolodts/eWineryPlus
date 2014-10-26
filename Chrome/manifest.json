@@ -4,12 +4,12 @@
 	"version": "1.0",
 	"icons": {"48": "48x48.png"},
 	"permissions": [
-		"tabs", "*://admin-WINERY.ewinerysolutions.com/wineries/store/*"
+		"tabs", "*://admin-WINERY.ewinerysolutions.com/wineries/store/index.cfm?method=wstorderspos.AddOrder*"
 	],
 	
 	"content_scripts": [
     {
-		"matches": [ "*://admin-WINERY.ewinerysolutions.com/wineries/store/*"],
+		"matches": [ "*://admin-WINERY.ewinerysolutions.com/wineries/store/index.cfm?method=wstorderspos.AddOrder*"],
 		"js": [ "ew_include.js" ],
 		"run_at": "document_end"
 	}
